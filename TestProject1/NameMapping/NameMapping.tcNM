@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{728F6A99-EDB9-45BE-B9D5-D8C696FAA89D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E5F8A320-2256-49F6-9E93-55DDD058B196}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{AC1DC9E8-2F68-42DB-831A-926DA2ACBC12}">
+								<Image FileName="1844811835" Left="0" Top="0" Right="1198" Bottom="972" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageNaver" Key="{EC43FBCA-E7A7-4089-A992-364D463EDE97}">
+								<Image FileName="214837703" Left="8" Top="112" Right="1190" Bottom="964" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.naver.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkNidloginLogin" Key="{28C633B2-3F95-4887-99AE-E0E84EAC80F8}">
+										<Image FileName="-1693666290" Left="836" Top="438" Right="1151" Bottom="486" />
+										<TypeInfo Item0="{CF73AECB-2B34-4D6C-9FC9-C99DFE7BD02A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;link_login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div[@id=&apos;NM_INT_RIGHT&apos;]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E5F8A320-2256-49F6-9E93-55DDD058B196}">
+			<Child Name="BrowserWindow" Owner="{AC1DC9E8-2F68-42DB-831A-926DA2ACBC12}" />
+			<Child Name="pageNaver" Owner="{EC43FBCA-E7A7-4089-A992-364D463EDE97}">
+				<Child Name="linkNidloginLogin" Owner="{28C633B2-3F95-4887-99AE-E0E84EAC80F8}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
