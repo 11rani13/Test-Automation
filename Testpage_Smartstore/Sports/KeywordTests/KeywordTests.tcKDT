@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Basketball" key="{5CA2725C-856D-470F-8011-B6D60D1182AE}" path="Basketball.tcKDTest" />
+		<child name="Golf" key="{C34A3DD3-10CE-4953-9FBA-E52F06AAA909}" path="Golf.tcKDTest" />
+		<child name="Soccer" key="{686E62F1-A9BE-4082-80F8-5AB3D9C01335}" path="Soccer.tcKDTest" />
+	</children>
+</Root>

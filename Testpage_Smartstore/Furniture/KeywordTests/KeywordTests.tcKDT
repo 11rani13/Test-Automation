@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Chairs" key="{740242FC-ABAB-4809-B9D0-9C9C33FDEE24}" path="Chairs.tcKDTest" />
+		<child name="Sofas" key="{291F4F6A-FF49-4E3E-8225-0BAF7DA9FE4F}" path="Sofas.tcKDTest" />
+		<child name="Tables" key="{28BE74BE-CA58-446F-86C8-CE77E9EA6E96}" path="Tables.tcKDTest" />
+	</children>
+</Root>

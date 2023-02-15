@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{2B09E4A4-D26D-4DC8-B731-B05D46AF66A2}">
+	<children>
+		<child name="Books" key="{1CF378C2-415B-42E3-8767-CBC44BC8F842}" path="Smartstore\Books.mds" />
+		<child name="Furniture" key="{5DCEF66A-7172-49B7-B318-DA99868912BB}" path="Furniture\Furniture.mds" />
+		<child name="Sports" key="{FAC15895-3E48-4DD5-8566-B9EE46D09806}" path="Sports\Sports.mds" />
+	</children>
+	<testItems key="{150A2B7E-BB3E-4094-95DD-7972A07F3BB6}">
+		<children>
+			<testItem key="{1CF378C2-415B-42E3-8767-CBC44BC8F842}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5DCEF66A-7172-49B7-B318-DA99868912BB}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{FAC15895-3E48-4DD5-8566-B9EE46D09806}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{3FC4295F-BFDA-41C9-84FB-3D6C25FEA1B3}" />
+	<analysis key="{4FA5F68E-ADF1-463C-942F-D3FDC6930B45}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
