@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{32444560-D7EE-4276-9171-1021A3DCD2F1}">
+	<children>
+		<child name="Orders" key="{62E7296D-3C96-467C-9814-022E9DC4A257}" path="Orders\Orders.mds" />
+		<child name="OrdersAppAdd" key="{25CB62FD-A535-4095-AB7E-D93142FF461A}" path="TestProject2\OrdersAppAdd.mds" />
+	</children>
+	<testItems key="{528C1CAC-B748-4056-A768-CD0A3A4C4A5C}">
+		<children>
+			<testItem key="{62E7296D-3C96-467C-9814-022E9DC4A257}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{25CB62FD-A535-4095-AB7E-D93142FF461A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D9B8F486-493E-49FF-8A4A-A3858F46763B}" />
+	<analysis key="{D790BE1C-DAAB-4EF4-8E66-3EE12A5995BE}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
