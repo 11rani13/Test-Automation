@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Order" key="{71F97A99-24B9-48B4-932B-6A46638040CD}" path="Order.tcKDTest" />
+		<child name="View_all_Orders" key="{E1B0FEE2-9249-410F-B010-A25C781AAB0E}" path="View_all_Orders.tcKDTest" />
+		<child name="View_all_Products" key="{19DFA031-FA70-4FAB-BC39-56C60D4FE694}" path="View_all_Products.tcKDTest" />
+	</children>
+</Root>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B14FA630-C7A8-41D4-A218-BA8F1163358F}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{63BF5BB1-81C5-4AF5-80F5-FB7F2CC593D1}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageDefault" Key="{8F6C6E8A-1570-4B80-9C17-9F84C2665499}">
+								<Image FileName="205528089" Left="0" Top="103" Right="2560" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/Default.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkViewAllProducts" Key="{DD80C53F-A7A7-44C6-9A95-B183D68B190A}" ExtendedFind="True">
+										<Image FileName="205528089" Left="40" Top="279" Right="563" Bottom="321" />
+										<TypeInfo Item0="{6503F19A-0022-438B-8F49-4E489EE28C77}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="View all products" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageProcess" Key="{9791F7D8-3693-4278-AFF7-C11EC10335AE}">
+								<Image FileName="959152270" Left="0" Top="103" Right="2560" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/Process.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{023EED26-7AC5-4D3E-BA09-BDF515A154CB}">
+										<Image FileName="959152270" Left="0" Top="103" Right="2560" Bottom="760" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="aspnetForm" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="tableWebOrders" Key="{B4258FB4-10E8-49A0-9E71-71DA80EEEC72}">
+												<Image FileName="959152270" Left="0" Top="103" Right="2560" Bottom="760" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Table" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="cell" Key="{1CA7F0D8-0511-42AE-9A5B-334DCF2BC31C}">
+														<Image FileName="959152270" Left="563" Top="103" Right="2560" Bottom="760" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Cell" />
+															</Property>
+															<Property Name="RowIndex">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="ColumnIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelOrder" Key="{38C1DBA9-5B75-498D-ADB7-0BEB02C5AE81}">
+																<Image FileName="959152270" Left="563" Top="173" Right="2560" Bottom="760" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="tableFmworder" Key="{C2CD2B9B-43C8-4B6B-B583-71AB8655EC7C}">
+																		<Image FileName="959152270" Left="593" Top="237" Right="2550" Bottom="760" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Table" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="fmwOrder" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="cell" Key="{0C768D6E-A4F7-4B56-9C97-F3EB6AAFB6BF}">
+																				<Image FileName="959152270" Left="593" Top="237" Right="2550" Bottom="760" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Cell" />
+																					</Property>
+																					<Property Name="RowIndex">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																					<Property Name="ColumnIndex">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="textboxCustomerName" Key="{33B2B0EC-C366-465F-AEC5-B8573A0D2F9A}">
+																						<Image FileName="959152270" Left="743" Top="455" Right="949" Bottom="476" />
+																						<TypeInfo Item0="{CF2C05A6-0EFC-4C07-BCFC-84D39A0E3B09}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Textbox" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="txtName" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="textboxStreet" Key="{6CADDF9E-CE99-47EC-BA7C-D67734868539}" ExtendedFind="True">
+																						<Image FileName="-1040510277" Left="743" Top="480" Right="949" Bottom="501" />
+																						<TypeInfo Item0="{CF2C05A6-0EFC-4C07-BCFC-84D39A0E3B09}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Textbox" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="TextBox2" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{63BF5BB1-81C5-4AF5-80F5-FB7F2CC593D1}">
+			<Child Name="pageDefault" Owner="{8F6C6E8A-1570-4B80-9C17-9F84C2665499}">
+				<Child Name="linkViewAllProducts" Owner="{DD80C53F-A7A7-44C6-9A95-B183D68B190A}" />
+			</Child>
+			<Child Name="pageProcess" Owner="{9791F7D8-3693-4278-AFF7-C11EC10335AE}">
+				<Child Name="formAspnetform" Owner="{023EED26-7AC5-4D3E-BA09-BDF515A154CB}">
+					<Child Name="textboxCustomerName" Owner="{33B2B0EC-C366-465F-AEC5-B8573A0D2F9A}" />
+					<Child Name="textboxStreet" Owner="{6CADDF9E-CE99-47EC-BA7C-D67734868539}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

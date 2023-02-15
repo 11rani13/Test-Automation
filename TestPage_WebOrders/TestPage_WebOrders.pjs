@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{0F603A6F-CA48-425E-87ED-338B877343D5}">
+	<children>
+		<child name="WebOrders" key="{ABFBBE0D-AFE2-4FFA-8958-715064591909}" path="WebOrders\WebOrders.mds" />
+		<child name="LgIn_Out" key="{B33D87C1-F8C0-4AE9-BE8F-B4C83317C062}" path="LgIn_Out\LgIn_Out.mds" />
+		<child name="DesktopOrders" key="{321E7370-EF4C-4441-97B1-AB9E59265A8E}" path="DesktopOrders\DesktopOrders.mds" />
+		<child name="Classic web test" key="{3ED942B3-39F1-4EC6-A6FB-3837E2BFED96}" path="Classic web test\Classic web test.mds" />
+	</children>
+	<testItems key="{369DACD5-FD6D-4DF5-A518-70C6456D68F3}">
+		<children>
+			<testItem key="{ABFBBE0D-AFE2-4FFA-8958-715064591909}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{B33D87C1-F8C0-4AE9-BE8F-B4C83317C062}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{321E7370-EF4C-4441-97B1-AB9E59265A8E}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3ED942B3-39F1-4EC6-A6FB-3837E2BFED96}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{C5C379D9-F9BE-40AA-9C2F-1494E9B410F7}" />
+	<analysis key="{2731436F-3F53-4F45-BB77-A25CFDD23A28}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
