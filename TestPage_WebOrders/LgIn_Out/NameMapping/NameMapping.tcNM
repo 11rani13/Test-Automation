@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{993DC549-357D-4186-B87C-70CD39EDFC3D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{8D5783B0-06F7-4B64-A991-3C46DA48F4F7}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{59927B23-5FA6-455E-BDC9-0F7CDAAFDF33}">
+								<Image FileName="-1830458777" Left="0" Top="0" Right="1105" Bottom="851" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWebOrdersLogin" Key="{9C7328AF-B970-402E-A5C5-8796BD9AD703}">
+								<Image FileName="-1830458777" Left="8" Top="112" Right="1097" Bottom="843" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{0994AB4B-B3C6-4AAF-BA4A-E722BEC9EFA0}">
+										<Image FileName="-1830458777" Left="8" Top="112" Right="1097" Bottom="569" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Username:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;Login.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{79FE8DCD-3855-46D8-B6AA-59FC7774AA73}">
+										<Image FileName="-1021757152" Left="493" Top="428" Right="641" Bottom="449" />
+										<TypeInfo Item0="{6A9E8BE4-C7EC-4F75-BC6B-F24C4501C49E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ctl00_MainContent_username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{D8A49242-5017-4CE8-96E4-D53CE8157331}">
+										<Image FileName="604874288" Left="493" Top="453" Right="641" Bottom="474" />
+										<TypeInfo Item0="{6A9E8BE4-C7EC-4F75-BC6B-F24C4501C49E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ctl00_MainContent_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{8D5783B0-06F7-4B64-A991-3C46DA48F4F7}">
+			<Child Name="BrowserWindow" Owner="{59927B23-5FA6-455E-BDC9-0F7CDAAFDF33}" />
+			<Child Name="pageWebOrdersLogin" Owner="{9C7328AF-B970-402E-A5C5-8796BD9AD703}">
+				<Child Name="formAspnetform" Owner="{0994AB4B-B3C6-4AAF-BA4A-E722BEC9EFA0}">
+					<Child Name="textboxUsername" Owner="{79FE8DCD-3855-46D8-B6AA-59FC7774AA73}" />
+					<Child Name="passwordboxPassword" Owner="{D8A49242-5017-4CE8-96E4-D53CE8157331}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login" key="{3D90FCCD-43B3-47C4-A04E-EF2D8DD6B536}" path="Login.tcKDTest" />
+		<child name="Logout" key="{AF4E7616-B0E8-4142-87E2-832445261733}" path="Logout.tcKDTest" />
+	</children>
+</Root>
